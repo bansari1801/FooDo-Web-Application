@@ -1,0 +1,60 @@
+/* ==========================================
+ Author: Khushalkumar Gondaliya
+========================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;600;800&display=swap");
+
+.Dialog {
+  max-width: fit-content;
+  height: fit-content;
+  padding: 2% 5%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 2rem;
+}
+
+.profile-image-sm {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile-image-md {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1300px) {
+  .profile-image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .profile-image {
+    width: 300px;
+    height: 300px;
+  }
+}
